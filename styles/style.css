@@ -53,33 +53,74 @@ div>ul>li {
 nav a {
     text-decoration: none;
 }
+
 /* start banner section css */
-.header{
-    background-color: #fff8f3 ;
+.header {
+    background-color: #fff8f3;
     margin-top: 0px;
 }
-.banner{
-    padding: 12px 30px 0px 150px ;
-    background-image: url(../images/header_bg.png),url(../images/developer.png);
+
+.banner {
+    padding: 12px 30px 0px 150px;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right,bottom left;
+    background-position: bottom right, bottom left;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.banner-image{
+
+.banner-image {
 
     width: 500px;
 }
-.banner-greeting{
+
+.banner-greeting {
     padding-bottom: 10px;
 }
-.banner-title{
+
+.banner-title {
     padding-bottom: 10px;
 }
-.banner-text{
+
+.banner-text {
     padding-bottom: 10px;
 }
-.banner-button{
+
+.banner-button {
     margin-right: 20px;
+}
+
+/* end banner section */
+.main {
+    margin: 100px 200px;
+}
+.main-about-me{
+    background-color: #fff8f3 ;
+    /* margin: 00px 100px; */
+}
+.main-about-title {
+    text-align: center;
+    padding: 100px 0px 20px 0px;
+    color: #181818;
+    font-size: 35px;
+}
+
+.main-about-text {
+    text-align: center;
+    padding: 10px 300px;
+    color: #757575;
+    font-size: 18px;
+}
+
+.main-about-info {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    padding: 20px 300px 100px ;
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+
 }
