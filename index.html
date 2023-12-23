@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/27822300ff.js" crossorigin="anonymous"></script>
     <title>My first Portfolio</title>
 </head>
 
@@ -33,8 +34,8 @@
                 <h1 class="banner-title">Mary Hardy</h1>
                 <p class="banner-text">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning
                     because as to society behaved moments.</p>
-                <button class="btn-primary banner-button">Download CV</button>
-                <button class="btn-primary">Contact</button>
+                <button class="btn-primary banner-button"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
             </div>
             <img class="banner-image" src="./images/hardy.png" alt="">
         </div>
@@ -135,10 +136,29 @@
             </div>
         </div>
         <div class="Download-cv">
-            <button class="btn-primary">Download CV</button>
+            <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
         </div>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer-column">
+            <h3 class="fotter-title">Lets Connect</h3>
+            <p class="footer-connect-text">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <a href=""><img src="/images/icon/facebook.png" alt=""></a>
+            <a href=""><img src="/images/icon/twitter.png" alt=""></a>
+            <a href=""><img src="/images/icon/insta.png" alt=""></a>
+        </div>
+        <div class="footer-column">
+            <h3 class="fotter-title">Let’s Message me</h3>
+            <div class="footer-text-box">
+                <form class="contact" action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Email">
+                    <textarea name="" id="" cols="30" rows="10">Message</textarea>
+                </form>
+                <button class="btn-primary">Submit</button>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

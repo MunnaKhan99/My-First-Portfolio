@@ -41,7 +41,7 @@
     color: white;
     font-size: 15px;
     border: none;
-    padding: 10px;
+    padding: 20px 30px;
     /* margin-left: 10px; */
 }
 
@@ -207,4 +207,40 @@ nav a {
    text-align: center;
    margin-top: 50px;
     
+}
+
+/* Fotter section */
+.footer{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 130px 230px;
+    background-color: #fff8f3;
+}
+.footer-column{
+    width: 50%;
+}
+div input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 5px;
+    padding: 18px  30px;
+    color: #757575;
+    font-size: 16px;
+    border: 0;
+    width: 100%;
+    
+}
+.fotter-title{
+    padding-bottom: 25px;
+    font-size: 35px;
+    color: #181818;
+}
+.footer-connect-text{
+    padding-bottom: 20px;
+}
+div a{
+   padding-right: 20px;
 }
